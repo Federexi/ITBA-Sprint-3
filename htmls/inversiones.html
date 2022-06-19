@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/hubstyle.css">
+    <link rel="stylesheet" href="../styles/cotizacionesStyle.css">
 </head>
 
 <body>
@@ -70,26 +71,25 @@
     </nav>
   </div>
 
-<div class="container">
+<div class="container ">
     <br>
-    <h1> Precio del Dólar HOY en Argentina</h1>
+    <h1> Precio del Dólar en Argentina</h1>
     <br>
-    <div class="container text-center">
+    <div class="container text-center fontContainer">
         <div class="row">
-            <div class="col-sm">
+            <div class="col-sm text-center dolarBoxStyle">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm dolarTitle text-white"> <img src="https://www.dolarsi.com/func/img/b1.png" alt=""> DOLAR OFICIAL</div>
+                        <div class="col-sm dolarTitle text-white"> <img src="../archivos/dolarOficial.png" alt="" class="dolaresImg"> DOLAR OFICIAL</div>
                     </div>
                     <div class="row">
                         <div class="col-sm bg-light">
                             <small> COMPRA </small>
-                                <h6 id="oficialCompra"> .... </h6>  
-
+                            <h6 id="oficialCompra" class="montoDolar"> .... </h6>  
                         </div>
                         <div class="col-sm bg-light">
                            <small> VENTA </small> 
-                           <h6 id="oficialVenta"> .... </h6>
+                           <h6 id="oficialVenta" class="montoDolar"> .... </h6>
                         </div>
                     </div>
                     <div class="row">
@@ -100,19 +100,19 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm text-center">
+            <div class="col-sm text-center dolarBoxStyle">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm dolarTitle text-white"> <img src="https://www.dolarsi.com/func/img/b2.png" alt="">    DOLAR BLUE</div>
+                        <div class="col-sm dolarTitle text-white"> <img src="../archivos/dolarBlue.png" alt="" class="dolaresImg"> DOLAR BLUE</div>
                     </div>
                     <div class="row text-center">
                         <div class="col-sm bg-light">
                             <small> COMPRA </small>
-                                <h6 id="blueCompra">....</h6> 
+                            <h6 id="blueCompra" class="montoDolar">....</h6> 
                         </div>
                         <div class="col-sm bg-light">
                             <small> VENTA </small>
-                                <h6 id="blueVenta">....</h6>
+                            <h6 id="blueVenta" class="montoDolar">....</h6>
                         </div>
                     </div>
                     <div class="row">
@@ -123,17 +123,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-sm text-center dolarBoxStyle">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm dolarTitle text-white"> <img src="https://www.dolarsi.com/func/img/b3.png" alt="">   DOLAR CONTADO CON LIQUI</div>
+                        <div class="col-sm dolarTitle text-white"> <img src="../archivos/dolarLiqui.png" alt="" class="dolaresImg"> DOLAR CONTADO CON LIQUI</div>
                     </div>
                     <div class="row">
                         <div class="col-sm bg-light">
                             <small> REFERENCIA </small>
-                                <h6 id="liqui">....</h6> 
-                        </div>
-                        
+                            <h6 id="liqui" class="montoDolar">....</h6> 
+                        </div> 
                     </div>
                     <div class="row">
                         <div class="col-sm bg-transparent" id="liquiVar">VARIACIÓN</div>
@@ -142,25 +141,24 @@
                         <div class="col-sm bg-info fecha">ACTUALIZADO:</div>
                     </div>
                 </div>
-
             </div>
         </div>
         <br>
         <br>
         <div class="row">
-            <div class="col-sm">
+            <div class="col-sm text-center dolarBoxStyle">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm dolarTitle text-white"><img src="https://www.dolarsi.com/func/img/dolar_promedio.png" alt=""> DOLAR PROMEDIO</div>
+                        <div class="col-sm dolarTitle text-white"><img src="../archivos/dolarPromedio.png" alt="" class="dolaresImg"> DOLAR PROMEDIO</div>
                     </div>
                     <div class="row text-center">
                         <div class="col-sm bg-light">
                             <small> COMPRA </small> 
-                                <h6 id="promCompra">....</h6>
+                            <h6 id="promCompra" class="montoDolar">....</h6>
                         </div>
                         <div class="col-sm bg-light">
                             <small> VENTA </small> 
-                                <h6 id="promVenta">....</h6>
+                            <h6 id="promVenta" class="montoDolar">....</h6>
                         </div>
                     </div>
                     <div class="row">
@@ -171,15 +169,15 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-sm text-center dolarBoxStyle">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm dolarTitle text-white"><img src="https://www.dolarsi.com/func/img/b5.png" alt=""> DOLAR BOLSA</div>
+                        <div class="col-sm dolarTitle text-white"><img src="../archivos/dolarBolsa.png" alt="" class="dolaresImg"> DOLAR BOLSA</div>
                     </div>
                     <div class="row text-center" >
                         <div class="col-sm bg-light">
                             <small> REFERENCIA </small>
-                                <h6 id="bolsa">....</h6>
+                            <h6 id="bolsa" class="montoDolar">....</h6>
                         </div>
                         
                     </div>
@@ -191,15 +189,15 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
+            <div class="col-sm text-center dolarBoxStyle">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm dolarTitle text-white"><img src="https://www.dolarsi.com/func/img/riesgo_pais_s.png" alt=""> DOLAR TURISTA</div>
+                        <div class="col-sm dolarTitle text-white"><img src="../archivos/dolarTurista.png" alt="" class="dolaresImg"> DOLAR TURISTA</div>
                     </div>
                     <div class="row text-center">
                         <div class="col-sm bg-light">
                             <small> VENTA </small>
-                                <h6 id="turista">....</h6>
+                            <h6 id="turista" class="montoDolar">....</h6>
                         </div>
                     </div>
                     <div class="row">
